@@ -1,0 +1,10 @@
+{"entities":
+	[ 
+		{
+			"id": 0,
+			"name": "Skeleton",
+			"textureIndex": 1,
+			"type": "enemy"
+		}
+	]
+}
