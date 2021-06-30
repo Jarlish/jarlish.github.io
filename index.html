@@ -1,1 +1,14 @@
-Hello World
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script src="./rogueliketutorial.js"></script>
+    <script>
+      window.addEventListener("load", async () => {
+        await wasm_bindgen("./rogueliketutorial.wasm");
+      });
+    </script>
+  </body>
+</html>
